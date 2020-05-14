@@ -11,7 +11,7 @@ pipeline {
   }
 }
 
-stage('Deploy on Dev'){
+stage('Deploy on Develop'){
   agent any
   when{
     branch 'development'
